@@ -16,7 +16,7 @@ const Navbar = () => {
                     <p>Credit Left : 5 </p>
                 </button>
 
-                <p>Hi, My dear gandu Friend</p>
+                <p>Hi, My dear Friend</p>
 
             </div>
             <img src={assets.profile_icon} className='w-10 drop-shadow' alt="" />
