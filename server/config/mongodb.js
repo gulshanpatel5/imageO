@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 
 export const  connectDB = async () =>{
 
-    await mongoose.connect('mongodb+srv://gulshanpatel:90066@cluster0.j5run8f.mongodb.net/ImageO').then(()=>console.log("DB Connected"));
+    await mongoose.connect('').then(()=>console.log("DB Connected"));
    
 }
 export default connectDB;
