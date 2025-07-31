@@ -1,4 +1,4 @@
-import logo from './logo.svg'
+import logo from './logo.png'
 import logo_icon from './logo_icon.svg'
 import facebook_icon from './facebook_icon.svg'
 import instagram_icon from './instagram_icon.svg'
@@ -6,12 +6,12 @@ import twitter_icon from './twitter_icon.svg'
 import star_icon from './star_icon.svg'
 import rating_star from './rating_star.svg'
 import sample_img_1 from './sample_img_1.png'
-import sample_img_2 from './sample_img_2.png'
-import profile_img_1 from './profile_img_1.png'
+import sample_img_2 from './sample_img_2.jpg'
+import profile_img_1 from './profile_img_1.jpg'
 // import profile_img_2 from './profile_img_2.png'
-import people_5 from './people-5.png'
-import people_1 from './people-1.png'
-import people_2 from './people-2.png'
+import people_5 from './people_5.jpg'
+import people_1 from './people_1.jpg'
+import people_2 from './people-2.jpg'
 import step_icon_1 from './step_icon_1.svg'
 import step_icon_2 from './step_icon_2.svg'
 import step_icon_3 from './step_icon_3.svg'
@@ -60,33 +60,34 @@ export const stepsData = [
 
 export const testimonialsData = [
     {
+        image:people_1,
+        name:'Prashant Patel',
+        role:'Developer',
+        stars:4,
+        text:`Exceptional web development! Delivered a seamless, responsive site with clean code and great UX. Efficient and detail-oriented.`
+    },
+    {
         image:profile_img_1,
-        name:'Manish Mehta',
+        name:'Gulshan Patel',
         role:'Graphic Designer',
         stars:5,
         text:`Outstanding developer! Built a robust site with perfect functionality. Efficient and detail-oriented.`
     },
     {
         image:people_5,
-        name:'Anil Nair',
-        role:'TCS',
+        name:'Rashmi Patel',
+        role:'Target India',
         stars:4,
         text:`Professional work! Delivered on time, with a polished design and smooth user experience.Efficient and detail-oriented.`
     },
     {
         image:people_2,
-        name:'Arjun Sharma',
-        role:' Mahinda',
+        name:'Lucky Patel',
+        role:' Developer',
         stars:5,
         text:`Impressive work! Fast loading times, intuitive design, and flawless backend integration. Highly recommend.`
     },
-    {
-        image:people_1,
-        name:'Ravi Patel',
-        role:' Self Business',
-        stars:4,
-        text:`Exceptional web development! Delivered a seamless, responsive site with clean code and great UX. Efficient and detail-oriented.`
-    },
+    
 ]
 
 export const plans = [

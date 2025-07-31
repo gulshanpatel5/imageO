@@ -4,7 +4,7 @@ const userSchema = new mongoose.Schema({
     name: { type: String, required: true },
     email: { type: String, required: true, unique: true ,default: true},  
     password: { type: String, required: true },
-    creditBalance: { type: Number, default: 50 } // default credit balance for new users,
+    creditBalance: { type: Number, default: 5 } // default credit balance for new users,
     })
 const userModel = mongoose.model.user || mongoose.model('User', userSchema);
 export default userModel; 

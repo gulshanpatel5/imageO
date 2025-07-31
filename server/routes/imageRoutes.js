@@ -4,7 +4,7 @@ import authUser from "../middlewares/auth.js";
 
 const imageRouter = express.Router();  
 
-imageRouter.post('/generate-image ', authUser,generateImage);
+imageRouter.post('/generate-image', authUser,generateImage);
 
 export default imageRouter;
 // This router handles image generation requests

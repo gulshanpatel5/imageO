@@ -3,7 +3,12 @@ import { assets } from '../assets/assets';
 import { delay, motion } from "motion/react"
 // import AppContext from '../context/AppContext';
 import { useNavigate } from 'react-router-dom';
+import { AppContext } from '../context/AppContext';
+import { useContext } from 'react';
+
 const Header = () => {
+
+  const { user, setShowLogin } = useContext(AppContext)
   
   const navigate = useNavigate()
   const onClickHandler =() => {

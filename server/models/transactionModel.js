@@ -8,7 +8,7 @@ const transactionSchema = new mongoose.Schema({
     payment: { type: Boolean,  default: false }, 
     date: { type: Number }
     })
-const transactionModel = mongoose.model.transaction || mongoose.model('transaction', transactionSchema);
+const transactionModel = mongoose.models.transaction || mongoose.model('transaction', transactionSchema);
 export default transactionModel; 
 // Exporting the user model to be used in other parts of the application
 // This model will be used to interact with the 'users' collection in the MongoDB database 
